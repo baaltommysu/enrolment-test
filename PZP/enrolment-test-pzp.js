@@ -83,7 +83,6 @@ browser.visit("http://localhost:8080/",function(){
 				//here title is PZP enrollment, not PZP Dashboard, just like using firefox, the page is not redirected. But the connection is successful.
 				console.log("\n\n[PZP]-->Sign up pressed");
 				    
-				//				console.log("\n\n[PZP]-->The webpage we are in is " + browser.text("title")); 
 				browser.pressButton("input[value~='Yes, please enrol this device']", function(){
 				    console.log("\n\n[PZP]-->The webpage we are in is " + browser.text("title"));
 				    assert.equal(browser.text("title"),"PZH Dashboard");
