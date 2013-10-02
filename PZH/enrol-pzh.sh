@@ -49,7 +49,8 @@ echo "[PZH]-->Installed the PZH"
 
 
 # Start PZH
-sudo ./webinos_pzh.js & 
+node webinos_pzh.js & 
+
 echo "[PZH]-->PZH started!"
 
 # Copy test files to pzh directory
@@ -64,7 +65,7 @@ sleep 15
 
 
 sleep 600
-sudo killall node
+killall node
 
 
 
