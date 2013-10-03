@@ -49,7 +49,7 @@ echo "[PZH]-->Installed the PZH"
 
 
 # Start PZH
-node webinos_pzh.js & 
+sudo ./webinos_pzh.js & 
 
 echo "[PZH]-->PZH started!"
 
