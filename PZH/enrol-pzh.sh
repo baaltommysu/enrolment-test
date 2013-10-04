@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo killall node
 ################################################################################
 #  Code contributed to the webinos project
 #
@@ -65,7 +65,7 @@ sleep 15
 
 
 sleep 600
-killall node
+
 
 
 
