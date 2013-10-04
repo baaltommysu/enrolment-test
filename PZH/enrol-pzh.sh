@@ -65,7 +65,7 @@ sleep 15
 
 
 sleep 600
-
+sudo killall node
 
 
 
